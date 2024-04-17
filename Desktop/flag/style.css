@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+
+#cont {
+   display: grid;
+   grid-template-rows: repeat(13, 1fr);
+   width:100%;
+   height: 350px;
+
+}
+.red {
+    background-color: red;
+    grid-row: span 1;
+
+    
+}
+.white {
+    background-color: white;
+    grid-row:span 1;
+
+}
+
+ img {
+    position: fixed;
+    top: 8px;
+    width: 250px;
+    height: 192px;
+}
